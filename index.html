@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vigenère cipher</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>Шифр Виженера</h1>
+		<div class="panel">
+			<h3>Введите обычный текст</h3>
+			<textarea class="big" type="text" id="text" spellcheck="false"></textarea>
+			<div>
+				<input id="cripto" type="radio" name="chek"><span name="chek">Зашифровать</span>
+				<input id="decripto" type="radio" name="chek"><span name="chek">Расшифровать</span>
+			</div>
+			<h3>Введите ключ слово</h3>
+			<input type="text" id="keyWord">
+			<button id="go">Зашифровать/Расшифровать</button>
+			<h3>готовый текст</h3>
+			<textarea class="big" type="text" id="compdited-text"></textarea>
+		</div>
+	<script src="js/app.js"></script>
+</body>
+</html>

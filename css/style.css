@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: green;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.panel {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.panel *{
+	margin: 3px;
+}
+
+input {
+	vertical-align: top;
+}
+
+.big {
+	width: 30vw;
+	height: 15vh;
+	white-space: pre-line;
+}
+
+#compdited-text {
+	background-color: aliceblue;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	text-transform: lowercase;
+}
+
+#compdited-text * {
+	margin: 0;
+	padding: 0;
+}
